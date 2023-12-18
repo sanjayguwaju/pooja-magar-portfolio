@@ -336,6 +336,22 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     padding: 80px 0;
 }
 
+@media (min-width: 992px) { /* Bootstrap 3 breakpoint for medium (md) and up */
+    .education-row-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) { /* Bootstrap 3 breakpoint for small (sm) and up */
+    .education-row-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /*.education-horizontal-timeline*/
 .education-horizontal-timeline .col-sm-4 {padding:0 2px;}
 
