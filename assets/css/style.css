@@ -190,7 +190,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/welcome-banner2.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -651,7 +651,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position:absolute;
     height:100%;
     width:100%;
-    background:rgba(31,44,108,.5);
+    background:rgba(31, 44, 108, 0);
     display:flex;
     align-items:center;
     text-transform: uppercase;
@@ -670,8 +670,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .isotope-overlay a {
     display: inline-block;
-    color: #fff;
-    font-size: 14px;
+    color: rgba(255, 255, 255, 0);
+    font-size: 16px;
     text-align: center;
 }
 .isotope .item:hover .isotope-overlay{
